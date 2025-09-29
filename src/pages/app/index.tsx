@@ -103,6 +103,7 @@ function Index() {
         })();
 
         return () => {
+            // clean Up
             alive = false;
             // clearTimeout(timer); // 타이머 정리
         };
